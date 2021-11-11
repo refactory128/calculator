@@ -1,0 +1,97 @@
+/* 
+background gradient
+pink ff5f6f
+orange ffc071
+
+text white
+f6f5fb
+
+band
+fda599
+
+Equals button gradient
+dark pink f7398f
+light pink fb79a5
+
+black bezzle
+top 162840
+bottom 080e1a
+
+calculator screen
+top 2f4d71
+bottom 1a273a
+
+shadow
+*/ 
+
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #ff5f6f, #ffc071);
+    
+}
+
+.container{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.phone
+{
+    height: 700px;
+    width: 350px;
+    background: linear-gradient(20deg, #1a273a, #2f4d71);
+    
+    border: 5px solid #080e1a;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.display{
+    flex: 1;
+}
+
+.keypad{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 65px 0px;
+}
+
+.keypadRow{
+    flex: 1;
+    display:flex;
+   
+}
+
+.key{
+    flex: 1;
+    font-size:xx-large;
+    border-radius: 100%;
+    margin: 5px;
+    background-color: transparent;
+    border: 0px;
+    color: #f6f5fb;
+}
+
+.orange-gradient{
+    background: linear-gradient(135deg, #ffc071, #ff5f6f);
+}
+
+.pink-gradient{
+    background: linear-gradient(135deg, #fb79a5, #f7398f);
+}
+
+#equals {
+    border-radius: 40px;
+    flex: 2.5 1 0;
+}
