@@ -6,42 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel=stylesheet href="style.css">
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Calculator</title>
 </head>
 <body>
     <div class="container">
+        <div class="quote">
+            <h1><Strong>Math</Strong> is the language
+                                of the universe</h1> 
+
+            
+            <p class="author">~ Neil deGrasse Tyson
+            </p>
+        </div>
         <div class="phone">
+            <div class="phonetop">
+                <p class="time">7:00 AM</p>
+                <div class="speaker"></div>
+                <i class="fa fa-wifi" aria-hidden="true"></i>
+                <i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+            </div>
             <div class="display">
+                <h2 class="result">0</h2>
+                <p class="stack"></p>
         
             </div>
             <div class="keypad">
-                <div class="keypadRow">
-                    <button class="key">7</button>
-                    <button class="key">8</button>
-                    <button class="key">9</button>
-                    <button class="key orange-gradient">-</button>
-                    <button class="key orange-gradient">/</button>
+                <div class="keypadLeft">
+                    <div class="keypadRow">
+                        <button class="key">7</button>
+                        <button class="key">8</button>
+                        <button class="key">9</button>
+
+                    </div>
+                    <div class="keypadRow">
+                        <button class="key">4</button>
+                        <button class="key">5</button>
+                        <button class="key">6</button>
+
+                    </div>
+                    <div class="keypadRow">
+                        <button class="key">1</button>
+                        <button class="key">2</button>
+                        <button class="key">3</button>
+                    </div>
+                    <div class="keypadRow">
+                        <button class="key">0</button>
+                        <button class="key">.</button>
+                        <button class="key">C</button>
+    
+                    </div>
                 </div>
-                <div class="keypadRow">
-                    <button class="key">4</button>
-                    <button class="key">5</button>
-                    <button class="key">6</button>
-                    <button class="key orange-gradient">+</button>
-                    <button class="key orange-gradient">*</button>
-                </div>
-                <div class="keypadRow">
-                    <button class="key">1</button>
-                    <button class="key">2</button>
-                    <button class="key">3</button>
-                    <button class="key orange-gradient">+</button>
-                    <button class="key orange-gradient">←</button>
-                </div>
-                <div class="keypadRow">
-                    <button class="key">0</button>
-                    <button class="key">.</button>
-                    <button class="key">C</button>
-                    <button id="equals" class="key pink-gradient">=</button>
- 
+                <div class="keypadRight">
+                    <div class="keypadCols">
+                        <div class="keypadCol">
+                            <button class="key orange-gradient">-</button>
+                            <button id="plus" class="key orange-gradient">+</button>
+                        </div>
+                        <div class="keypadCol">
+                            <button class="key orange-gradient">x</button>
+                            <button class="key orange-gradient">/</button>
+                            <button class="key orange-gradient">←</button>
+                        </div>
+                    </div>
+                    <div class="keypadRow">
+                        <button id="equals" class="key pink-gradient">=</button>
+                    </div>
                 </div>
             </div>
         </div>
